@@ -29,6 +29,4 @@ jobs:
       run: npm test
     
     - name: Run coverage and export to Coveralls
-      env: 
-        COVERALLS_REPO_TOKEN: ${{secrets.COVERALLS_REPO_TOKEN}}
-      run: npm run coverage
+      uses: coverallsapp/github-action@v2
