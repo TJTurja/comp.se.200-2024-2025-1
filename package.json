@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "mocha unitTests/*.test.js",
-    "coverage": "nyc mocha && nyc report --reporter=text-lcov | coveralls"
+    "coverage": "nyc test && nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",
