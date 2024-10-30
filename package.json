@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "mocha unitTests/*.test.js",
+    "test": "nyc mocha unitTests/*.test.js",
     "coverage": "nyc mocha unitTests/*.test.js && nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
