@@ -30,5 +30,3 @@ jobs:
     
     - name: Run coverage and export to Coveralls
       uses: coverallsapp/github-action@v2
-      with:
-        files: ./unitTests/*
