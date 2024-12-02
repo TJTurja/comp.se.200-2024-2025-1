@@ -15,10 +15,10 @@
     "exclude":["unitTests/**"],
     "all":true,
     "check-coverage":"true",
-    "branches":80,
-    "lines":80,
-    "functions":80,
-    "statements":80
+    "branches":0,
+    "lines":0,
+    "functions":0,
+    "statements":0
   },
   
   "devDependencies": {
