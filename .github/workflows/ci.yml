@@ -29,8 +29,8 @@ jobs:
       run: npm test
 
     - name: Debug coverage report
-      run: cat ./coverage/lcov.info
-      
+      run: ls -R
+
     - name: Run coverage and export to Coveralls
       uses: coverallsapp/github-action@v2
       env:
