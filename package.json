@@ -7,7 +7,7 @@
   "scripts": {
     "test": "c8 --all mocha unitTests/*.test.js",
     "coverage": "npm test && c8 report --reporter=lcov",
-    "coveralls": "c8 report --reporter=lcov | coveralls"
+    "coveralls": "c8 --all report --reporter=lcov | coveralls"
   },
   "author": "",
   "license": "MIT",
