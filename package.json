@@ -11,11 +11,15 @@
   "author": "",
   "license": "MIT",
   "nyc": {
-    "reporter":["lcov", "text-summary"],
-    "exclude":["unitTests/**"],
-    "all":true
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ],
+    "exclude": [
+      "unitTests/**"
+    ],
+    "all": true
   },
-  
   "devDependencies": {
     "chai": "^5.1.2",
     "coveralls": "^3.1.1",
