@@ -16,7 +16,8 @@
       "text-summary"
     ],
     "exclude": [
-      "unitTests/**"
+      "unitTests/**",
+      "src/.internal/**"
     ],
     "all": true
   },
