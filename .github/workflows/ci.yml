@@ -26,11 +26,9 @@ jobs:
       run: npm install
     
     - name: run unit tests
-      run: npm test
-      env:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+      run: npm test && npm run coverage
     
-    - name: Run coverage and export to Coveralls
-      uses: coverallsapp/github-action@v2
+    - name: Export to coveralls
       env:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+      run: cat ./coverage/lcov.info | coveralls
