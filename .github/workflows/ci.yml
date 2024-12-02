@@ -26,9 +26,8 @@ jobs:
       run: npm install
     
     - name: run unit tests
-      run: npm test && npm run coverage
-      env: 
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+      run: npm test && npm run coverage 
+      github-token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Run coverage and export to Coveralls
       uses: coverallsapp/github-action@v2
