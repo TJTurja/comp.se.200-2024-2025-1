@@ -28,9 +28,6 @@ jobs:
     - name: run unit tests and coverage
       run: npm run coverage
 
-    - name: Debug coverage report
-      run: ls -R
-
     - name: Export coverage to Coveralls
       uses: coverallsapp/github-action@v2
       env:
