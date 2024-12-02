@@ -26,7 +26,7 @@ jobs:
       run: npm install
     
     - name: run unit tests and coverage
-      run: npm coverage
+      run: npm run coverage
 
     - name: Debug coverage report
       run: ls -R
