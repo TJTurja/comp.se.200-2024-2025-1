@@ -11,6 +11,10 @@
   },
   "author": "",
   "license": "MIT",
+  "c8":{
+    "exclude":["src/.internal/**", "unitTests/**"],
+    "include":"src/*.js"
+  },
   "devDependencies": {
     "c8": "^10.1.2",
     "chai": "^5.1.2",
