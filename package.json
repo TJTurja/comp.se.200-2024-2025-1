@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "c8 mocha unitTests/*.test.js",
+    "test": "c8 --all mocha unitTests/*.test.js",
     "coverage": "npm test && c8 report --reporter=lcov",
     "coveralls": "c8 report --reporter=lcov | coveralls"
   },
