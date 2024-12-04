@@ -1,4 +1,6 @@
-[![Coverage Status](https://coveralls.io/repos/github/TJTurja/comp.se.200-2024-2025-1/badge.svg?branch=main)](https://coveralls.io/github/TJTurja/comp.se.200-2024-2025-1?branch=main)# Student template
+[![Coverage Status](https://coveralls.io/repos/github/TJTurja/comp.se.200-2024-2025-1/badge.svg?branch=main)](https://coveralls.io/github/TJTurja/comp.se.200-2024-2025-1?branch=main)
+
+# Student template
 
 ## Purpose of this repository
 
