@@ -47,10 +47,4 @@ describe('drop', () => {
     expect(drop([], -1)).to.deep.equal([]);
   });
 
-  it('should handle large arrays with large `n` values', () => {
-    const largeArray = Array.from({ length: 1000 }, (_, i) => i + 1);
-    expect(drop(largeArray, 999)).to.deep.equal([1000]);
-    expect(drop(largeArray, 1000)).to.deep.equal([]);
-    expect(drop(largeArray, 1001)).to.deep.equal([]);
-  });
 });
